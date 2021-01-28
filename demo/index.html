@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>set
+            <input type="text" data-localstorage_set="test" name=""  placeholder="SET"/>
+            <!--<button type="submit" value="Submit" data-actions="localstorage">RUN</button>-->
+            <button type="button" class="outline red-white" data-actions="localStorage">RUN</button>
+        </form>
+        <form>set
+            <input type="text" data-localstorage_get="test" name="" placeholder="get"/>
+            <input type="text" data-localstorage_set="test2" name=""  placeholder="SET"/>
+            <!--<input type="text" data-localstorage_remove="test" name="" placeholder="remove"/>-->
+            <button type="button" class="outline red-white" data-actions="localStorage">RUN</button>
+        </form>
+        <form>get
+            <input type="text" data-localstorage_get="test" name="" placeholder="get"/>
+            <input type="text" data-localstorage_get="test2" name=""  placeholder="get"/>
+            <button type="button" class="outline red-white" data-actions="localStorage">RUN</button>
+        </form>
+        <form>remove
+            <input type="text" data-localstorage_remove="test" name="" placeholder="remove"/>
+            <input type="text" data-localstorage_remove="test2" name="" placeholder="remove"/>
+            <button type="button" class="outline red-white" data-actions="localStorage">RUN</button>
+        </form>
+    </body>
+
+    <script>
+      var config = {
+        apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+        securityKey: 'f26baf68-e3a9-45fc-effe-502e47116265',
+        organization_Id: '5de0387b12e200ea63204d6c'
+      }
+    </script>
+      <script src="https://cdn.cocreate.app/CoCreate.min.js"></script>
+      <script src="CoCreate-storage.js"></script>
+    
+    
+</html>
