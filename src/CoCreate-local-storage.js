@@ -66,6 +66,12 @@ const CoCreateLocalStorage = {
     }
 }
 
-CoCreateAction.registerEvent("localStorage", CoCreateLocalStorage.runStorage, CoCreateLocalStorage, "localStorage");
+CoCreate.actions.add({
+	action: "localStorage",
+	endEvent: "localStorage",
+	callback: (btn, data) => {
+		CoCreateLocalStorage.runStorage(btn)
+	},
+})
 
 export default CoCreateLocalStorage;
