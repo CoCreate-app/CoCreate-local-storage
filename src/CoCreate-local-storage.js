@@ -66,7 +66,7 @@ const CoCreateLocalStorage = {
     }
 }
 
-CoCreate.actions.add({
+CoCreate.action.init({
 	action: "localStorage",
 	endEvent: "localStorage",
 	callback: (btn, data) => {
