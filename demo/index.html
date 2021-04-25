@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Local Storage | CoCreateJS</title>
+		
+		<!-- CoCreate Favicon -->
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+    </head>
     <body>
         <form>set
             <input type="text" data-localstorage_set="test" name=""  placeholder="SET"/>
@@ -22,16 +32,17 @@
             <input type="text" data-localstorage_remove="test2" name="" placeholder="remove"/>
             <button type="button" class="outline red-white" data-actions="localStorage">RUN</button>
         </form>
-    </body>
-
+        
+        
     <script>
       var config = {
         apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
                 organization_Id: '5de0387b12e200ea63204d6c'
-      }
+        }
     </script>
-      <script src="https://cdn.cocreate.app/CoCreate.min.js"></script>
-      <script src="CoCreate-storage.js"></script>
     
+    <!-- CoCreate JS CDN -->
+    <script src="https://cdn.cocreate.app/local-storage/latest/CoCreate-local-storage.min.js"></script>
     
+    </body>
 </html>
