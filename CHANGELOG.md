@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([73baa37](https://github.com/CoCreate-app/CoCreate-local-storage/commit/73baa37ce38977aa1ee1f85ec44d8731cd8bdd8e))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
