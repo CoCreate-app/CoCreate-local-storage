@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([ea469b3](https://github.com/CoCreate-app/CoCreate-local-storage/commit/ea469b39e7ceb7543e1ecc198acddc341ae6f3ca))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
