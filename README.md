@@ -1,6 +1,6 @@
 # CoCreate-local-storage
 
-A simple local-storage component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/local-storage)
+A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/local-storage)
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-local-storage/dist/CoCreate-local-storage.min.js?label=minified%20size&style=for-the-badge)
 ![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-local-storage?style=for-the-badge)
