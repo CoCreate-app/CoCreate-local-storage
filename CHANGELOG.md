@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.6...v1.0.7) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([73d9caf](https://github.com/CoCreate-app/CoCreate-local-storage/commit/73d9cafd13e0d38d6ac3581846c1e5c793f4d90e))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.5...v1.0.6) (2021-06-06)
 
 
