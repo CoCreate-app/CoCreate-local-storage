@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.13...v1.0.14) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([e7fe12f](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e7fe12fb03c9829ec1753cd6598c3ed251516d2a))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.12...v1.0.13) (2021-07-07)
 
 
