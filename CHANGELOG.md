@@ -1,3 +1,18 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.15...v1.0.16) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([0778273](https://github.com/CoCreate-app/CoCreate-local-storage/commit/077827373296d3a8ee18b1f66ec031dcee0366cf))
+
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.14...v1.0.15) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([babb19c](https://github.com/CoCreate-app/CoCreate-local-storage/commit/babb19c77975e5cb5b6d99c6cc2f24167bec5cce))
+* remove yarn.lock ([e89e843](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e89e84318151de06a28e0f65eaf7d77a909199dd))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.13...v1.0.14) (2021-07-10)
 
 
