@@ -1,3 +1,11 @@
+## [1.0.17](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.16...v1.0.17) (2021-07-17)
+
+
+### Bug Fixes
+
+* init and update demos scripts ([a53ea61](https://github.com/CoCreate-app/CoCreate-local-storage/commit/a53ea61632fe25622aec91f26cff528201474b29))
+* workflows ([c0b11a0](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c0b11a04f78efdd71950c43e8c426d2f5150c58f))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.15...v1.0.16) (2021-07-14)
 
 
