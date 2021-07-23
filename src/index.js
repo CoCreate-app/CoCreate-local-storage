@@ -1,34 +1,48 @@
-// let btns_localStorageBtn = document.querySelectorAll('.localStorageBtn');
-// let storage = window.localStorage;
-// btns_localStorageBtn.forEach(btn=>{
-    
-//     btn.addEventListener("click",function(e){
-//         e.preventDefault()
-//         let forms = btn.form;
-//         let elements_localstorage_set = forms.querySelectorAll('[data-localstorage_set]')
-//         elements_localstorage_set.forEach(input=>{
-//             if(input.value){
-//                 storage.setItem(input.dataset['localstorage_set'], input.value);
-//             }
-//         });
-//         let elements_localstorage_get = forms.querySelectorAll('[data-localstorage_get]')
-//         elements_localstorage_get.forEach(input=>{
-//             let value = storage.getItem(input.dataset['localstorage_get'])
-//             if(value!=null){
-//                 input.value = value;
-//             }
-//         });
-//         let elements_localstorage_remove = forms.querySelectorAll('[data-localstorage_remove]')
-//         elements_localstorage_remove.forEach(input=>{
-//                 input.value = '';
-//                 storage.removeItem(input.dataset['localstorage_remove'])
-//         });
-//     });
-    
-// });
-
 const CoCreateLocalStorage = {
+	
+	init: function() {
+		var elements = document.querySelectorAll('[data-localstorage_set], [data-localstorage_get]');
+		this.initElements(elements)
+	},
 
+	initElements: function(elements) {
+		for (let element of elements)
+			this.initElement(element)
+	},
+
+	initElement: function(element) {
+        this.get(element)
+        element.addEventListener('input', (e) => {
+		    if ( CoCreate.crud.isRealtimeAttr(this)) {
+			    this.set(e.target)
+		    }
+		})
+    },
+    
+    get: function(element) {
+        let key = element.getAttribute('data-localstorage_get');
+        if (!key) return;
+        let value = window.localStorage.getItem(key)
+        if(value != null){
+            element.value = value;
+        }
+    }, 
+    
+    set: function(element) {
+        let key = element.getAttribute('data-localstorage_set');
+        if(element.value && key){
+            window.localStorage.setItem(key, element.value);
+        }
+    },
+    
+    remove: function(element) {
+        element.value = '';
+        let key = element.getAttribute('data-localstorage_remove');
+        if (key) {
+            window.localStorage.removeItem(key)
+        }
+    },
+    
     runStorage: function(btn) {
         const form = btn.form;
         let storage = window.localStorage;
@@ -69,6 +83,14 @@ const CoCreateLocalStorage = {
 CoCreate.action.init({
 	action: "localStorage",
 	endEvent: "localStorage",
+	callback: (btn, data) => {
+		CoCreateLocalStorage.runStorage(btn)
+	},
+})
+
+CoCreate.action.init({
+	action: "localStorageRemove",
+	endEvent: "localStorageRemoved",
 	callback: (btn, data) => {
 		CoCreateLocalStorage.runStorage(btn)
 	},
