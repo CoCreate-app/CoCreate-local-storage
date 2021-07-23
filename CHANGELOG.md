@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.17...v1.1.0) (2021-07-23)
+
+
+### Features
+
+* functions for set, get and remove. Will also set on change if realtime true ([49f5591](https://github.com/CoCreate-app/CoCreate-local-storage/commit/49f55918d609bd7812311f4969f5b14a62323f7a))
+
 ## [1.0.17](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.16...v1.0.17) (2021-07-17)
 
 
