@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.1.0...v1.2.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([bd296d0](https://github.com/CoCreate-app/CoCreate-local-storage/commit/bd296d029ca0c52c4c7785d8c22a2b0ef69aa756))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.0.17...v1.1.0) (2021-07-23)
 
 
