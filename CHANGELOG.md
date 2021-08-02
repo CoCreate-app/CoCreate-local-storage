@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.0...v1.2.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([4d7d961](https://github.com/CoCreate-app/CoCreate-local-storage/commit/4d7d961464cc33487814e622311b2edb8565d500))
+* remove data- from fetch, pass and filter ([574fb36](https://github.com/CoCreate-app/CoCreate-local-storage/commit/574fb36a40ae7b46e94474089f2a1bb0569ae957))
+* update data-fullscreen to fullscreen ([23ecf76](https://github.com/CoCreate-app/CoCreate-local-storage/commit/23ecf76d7bd186f73dbc9d410f69e285f51945e1))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.1.0...v1.2.0) (2021-07-28)
 
 
