@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.4...v1.2.5) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([5546612](https://github.com/CoCreate-app/CoCreate-local-storage/commit/5546612856f71d5cf92f91de7f79bb00b0239487))
+
 ## [1.2.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.3...v1.2.4) (2021-08-22)
 
 
