@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.10...v1.2.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([902c7b9](https://github.com/CoCreate-app/CoCreate-local-storage/commit/902c7b9f5976073d46e54b5ca66e036592234560))
+
 ## [1.2.10](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.9...v1.2.10) (2021-09-08)
 
 
