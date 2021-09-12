@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.14...v1.2.15) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([e2798c9](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e2798c996f80952af3a0716da9b435352836213b))
+
 ## [1.2.14](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.13...v1.2.14) (2021-09-09)
 
 
