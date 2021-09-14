@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.16...v1.2.17) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([974cc26](https://github.com/CoCreate-app/CoCreate-local-storage/commit/974cc26cc19a120cb76c907fbd853fca38b20bb4))
+
 ## [1.2.16](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.15...v1.2.16) (2021-09-13)
 
 
