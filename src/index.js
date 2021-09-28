@@ -1,3 +1,4 @@
+
 const CoCreateLocalStorage = {
 	
 	init: function() {
@@ -13,9 +14,9 @@ const CoCreateLocalStorage = {
 	initElement: function(element) {
         this.get(element)
         element.addEventListener('input', (e) => {
-		    if ( CoCreate.crud.isRealtimeAttr(this)) {
-			    this.set(e.target)
-		    }
+            let isRealtime = element.getAttribute('realtime')
+			if (isRealtime == "false") return;
+			this.set(e.target)
 		})
     },
     
