@@ -1,3 +1,10 @@
+## [1.2.22](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.21...v1.2.22) (2021-10-04)
+
+
+### Bug Fixes
+
+* update dependencies ([d9e295e](https://github.com/CoCreate-app/CoCreate-local-storage/commit/d9e295eb7a3ba30805ecb3907f1c228dc5493efc))
+
 ## [1.2.21](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.20...v1.2.21) (2021-10-01)
 
 
