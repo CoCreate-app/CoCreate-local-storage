@@ -1,6 +1,6 @@
 # CoCreate-local-storage
 
-A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 data-attributes and/or JavaScript API Take it for a spin in our [playground!](https://cocreate.app/docs/local-storage)
+A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 attributes and/or JavaScript API Take it for a spin in our [playground!](https://cocreate.app/docs/local-storage)
 
 ![minified](https://img.badgesize.io/https://cdn.cocreate.app/local-storage/latest/CoCreate-local-storage.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.cocreate.app/local-storage/latest/CoCreate-local-storage.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
