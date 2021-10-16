@@ -1,3 +1,10 @@
+## [1.2.31](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.30...v1.2.31) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([1b116e4](https://github.com/CoCreate-app/CoCreate-local-storage/commit/1b116e490a7ae44b95299c61e9b8f9229cebc7b6))
+
 ## [1.2.30](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.29...v1.2.30) (2021-10-15)
 
 
