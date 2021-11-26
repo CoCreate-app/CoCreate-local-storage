@@ -1,3 +1,10 @@
+## [1.2.46](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.45...v1.2.46) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([3b6829f](https://github.com/CoCreate-app/CoCreate-local-storage/commit/3b6829ffb970b1eab1d97165b44b90788912eb96))
+
 ## [1.2.45](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.44...v1.2.45) (2021-11-26)
 
 
