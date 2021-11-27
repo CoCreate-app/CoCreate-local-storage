@@ -1,3 +1,10 @@
+## [1.2.47](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.46...v1.2.47) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([8e24072](https://github.com/CoCreate-app/CoCreate-local-storage/commit/8e24072302feb70d49a4c9d878b5cf39965780f9))
+
 ## [1.2.46](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.45...v1.2.46) (2021-11-26)
 
 
