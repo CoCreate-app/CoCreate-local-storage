@@ -1,3 +1,10 @@
+## [1.2.53](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.52...v1.2.53) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([d793164](https://github.com/CoCreate-app/CoCreate-local-storage/commit/d7931643e607bba6f630e492d8139b3a93a2bc68))
+
 ## [1.2.52](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.51...v1.2.52) (2022-01-01)
 
 
