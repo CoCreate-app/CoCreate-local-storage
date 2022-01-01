@@ -1,3 +1,10 @@
+## [1.2.52](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.51...v1.2.52) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([f618968](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f6189689a6879387e900a4b35c2b0159497a8c8f))
+
 ## [1.2.51](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.50...v1.2.51) (2021-12-15)
 
 
