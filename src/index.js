@@ -2,7 +2,7 @@
 const CoCreateLocalStorage = {
 	
 	init: function() {
-		var elements = document.querySelectorAll('[data-localstorage_set], [data-localstorage_get]');
+		var elements = document.querySelectorAll('[localstorage-set], [localstorage-get]');
 		this.initElements(elements)
 	},
 
@@ -21,7 +21,7 @@ const CoCreateLocalStorage = {
     },
     
     get: function(element) {
-        let key = element.getAttribute('data-localstorage_get');
+        let key = element.getAttribute('localstorage-get');
         if (!key) return;
         let value = window.localStorage.getItem(key)
         if(value != null){
@@ -30,7 +30,7 @@ const CoCreateLocalStorage = {
     }, 
     
     set: function(element) {
-        let key = element.getAttribute('data-localstorage_set');
+        let key = element.getAttribute('localstorage-set');
         if(element.value && key){
             window.localStorage.setItem(key, element.value);
         }
@@ -38,7 +38,7 @@ const CoCreateLocalStorage = {
     
     remove: function(element) {
         element.value = '';
-        let key = element.getAttribute('data-localstorage_remove');
+        let key = element.getAttribute('localstorage-remove');
         if (key) {
             window.localStorage.removeItem(key)
         }
@@ -49,26 +49,26 @@ const CoCreateLocalStorage = {
         let storage = window.localStorage;
         if (!form) return;
         
-        let set_els = form.querySelectorAll('[data-localstorage_set]')
+        let set_els = form.querySelectorAll('[localstorage-set]')
         set_els.forEach(input=>{
-            let key = input.getAttribute('data-localstorage_set');
+            let key = input.getAttribute('localstorage-set');
             if(input.value && key){
                 storage.setItem(key, input.value);
             }
         });
-        let get_els = form.querySelectorAll('[data-localstorage_get]')
+        let get_els = form.querySelectorAll('[localstorage-get]')
         get_els.forEach(input=>{
-            let key = input.getAttribute('data-localstorage_get');
+            let key = input.getAttribute('localstorage-get');
             if (!key) return;
             let value = storage.getItem(key)
             if(value != null){
                 input.value = value;
             }
         });
-        let remove_els = form.querySelectorAll('[data-localstorage_remove]')
+        let remove_els = form.querySelectorAll('[localstorage-remove]')
         remove_els.forEach(input=>{
             input.value = '';
-            let key = input.getAttribute('data-localstorage_remove');
+            let key = input.getAttribute('localstorage-remove');
             if (key) {
                 storage.removeItem(key)
             }
