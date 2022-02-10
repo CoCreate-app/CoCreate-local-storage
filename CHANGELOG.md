@@ -1,3 +1,10 @@
+## [1.2.54](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.53...v1.2.54) (2022-02-10)
+
+
+### Bug Fixes
+
+* replace class hidden with attribute hidden ([c1a89d5](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c1a89d55b38f2bd223d007f017db296c647b603e))
+
 ## [1.2.53](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.52...v1.2.53) (2022-01-01)
 
 
