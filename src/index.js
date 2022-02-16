@@ -82,7 +82,7 @@ const CoCreateLocalStorage = {
 }
 
 CoCreate.action.init({
-	action: "localStorage",
+	name: "localStorage",
 	endEvent: "localStorage",
 	callback: (btn, data) => {
 		CoCreateLocalStorage.runStorage(btn)
@@ -90,7 +90,7 @@ CoCreate.action.init({
 })
 
 CoCreate.action.init({
-	action: "localStorageRemove",
+	name: "localStorageRemove",
 	endEvent: "localStorageRemoved",
 	callback: (btn, data) => {
 		CoCreateLocalStorage.runStorage(btn)
