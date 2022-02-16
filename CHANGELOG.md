@@ -1,3 +1,10 @@
+## [1.2.55](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.54...v1.2.55) (2022-02-16)
+
+
+### Bug Fixes
+
+* update action param to name ([7b19bbd](https://github.com/CoCreate-app/CoCreate-local-storage/commit/7b19bbd45195e625a4b33e27b394868497bb2c64))
+
 ## [1.2.54](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.53...v1.2.54) (2022-02-10)
 
 
