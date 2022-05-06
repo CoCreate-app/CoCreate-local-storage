@@ -1,3 +1,10 @@
+## [1.2.58](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.57...v1.2.58) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([5a2b8b8](https://github.com/CoCreate-app/CoCreate-local-storage/commit/5a2b8b8c236b55a0106ffec34581c79f162441a0))
+
 ## [1.2.57](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.56...v1.2.57) (2022-02-24)
 
 
