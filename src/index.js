@@ -4,6 +4,11 @@ const CoCreateLocalStorage = {
 	init: function() {
 		var elements = document.querySelectorAll('[localstorage-set], [localstorage-get]');
 		this.initElements(elements)
+        window.addEventListener('storage', function(e) {
+            elements = document.querySelectorAll(`[localstorage-get="${e.key}"]`)
+            for (let element of elements)
+                this.get(element)
+		});
 	},
 
 	initElements: function(elements) {
