@@ -22,6 +22,13 @@ const CoCreateLocalStorage = {
             let isRealtime = element.getAttribute('realtime')
 			if (isRealtime == "false") return;
 			this.set(e.target)
+
+            let key = e.target.getAttribute('localstorage-set');
+            let elements = document.querySelectorAll(`[localstorage-get="${e.key}"]`)
+            for (let el of elements){
+                if (el != element)
+                    this.get(el)
+            }
 		})
     },
     
