@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.61...v1.3.0) (2022-07-03)
+
+
+### Features
+
+* addEventListener storage to trigger localstorage-get ([29a339a](https://github.com/CoCreate-app/CoCreate-local-storage/commit/29a339a9813280f1338f5490102343ca745dd85e))
+* if input event localstorage-get for elements using same key ([1c28f35](https://github.com/CoCreate-app/CoCreate-local-storage/commit/1c28f3543a9fc08dc0b70e8a8fce9e45351e1e88))
+
 ## [1.2.61](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.2.60...v1.2.61) (2022-06-18)
 
 
