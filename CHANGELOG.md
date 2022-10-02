@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.7...v1.3.8) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([d0d331d](https://github.com/CoCreate-app/CoCreate-local-storage/commit/d0d331d1bdb599484fa32171a4fc6ba6e722f2cb))
+
 ## [1.3.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.6...v1.3.7) (2022-10-01)
 
 
