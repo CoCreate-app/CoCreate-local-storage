@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.11...v1.3.12) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([59d79e7](https://github.com/CoCreate-app/CoCreate-local-storage/commit/59d79e779b19c89ef3e1ebf2968c9618e2742db6))
+
 ## [1.3.11](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.10...v1.3.11) (2022-11-21)
 
 
