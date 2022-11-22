@@ -1,3 +1,10 @@
+## [1.3.15](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.14...v1.3.15) (2022-11-22)
+
+
+### Bug Fixes
+
+* workflow docs ([b89b6e8](https://github.com/CoCreate-app/CoCreate-local-storage/commit/b89b6e8714ef2391a20582701a697b08a749eefc))
+
 ## [1.3.14](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.13...v1.3.14) (2022-11-22)
 
 
