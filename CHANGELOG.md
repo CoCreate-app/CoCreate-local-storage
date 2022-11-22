@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.13...v1.3.14) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([0799bfa](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0799bfa8370305d4eaa2d4d9ac26b15ddc9b6afe))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.12...v1.3.13) (2022-11-21)
 
 
