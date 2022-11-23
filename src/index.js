@@ -36,14 +36,14 @@ const CoCreateLocalStorage = {
         let key = element.getAttribute('localstorage-get');
         if (!key) return;
         let value = window.localStorage.getItem(key)
-        if(value != null){
+        if (value != null){
             element.value = value;
         }
     }, 
     
     set: function(element) {
         let key = element.getAttribute('localstorage-set');
-        if(element.value && key){
+        if (element.value && key){
             window.localStorage.setItem(key, element.value);
         }
     },
@@ -64,7 +64,7 @@ const CoCreateLocalStorage = {
         let set_els = form.querySelectorAll('[localstorage-set]')
         set_els.forEach(input=>{
             let key = input.getAttribute('localstorage-set');
-            if(input.value && key){
+            if (input.value && key){
                 storage.setItem(key, input.value);
             }
         });
@@ -73,7 +73,7 @@ const CoCreateLocalStorage = {
             let key = input.getAttribute('localstorage-get');
             if (!key) return;
             let value = storage.getItem(key)
-            if(value != null){
+            if (value != null){
                 input.value = value;
             }
         });
