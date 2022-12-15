@@ -1,3 +1,10 @@
+## [1.3.32](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.31...v1.3.32) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([94b473b](https://github.com/CoCreate-app/CoCreate-local-storage/commit/94b473bbaf20e3222cb8935cb320732bb06a28b1))
+
 ## [1.3.31](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.30...v1.3.31) (2022-12-13)
 
 
