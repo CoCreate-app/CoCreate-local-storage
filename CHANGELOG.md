@@ -1,3 +1,10 @@
+## [1.3.41](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.40...v1.3.41) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([3773cef](https://github.com/CoCreate-app/CoCreate-local-storage/commit/3773cefae5e0d3f4c6f9124906bc2028c2af24da))
+
 ## [1.3.40](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.39...v1.3.40) (2022-12-29)
 
 
