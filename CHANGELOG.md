@@ -1,3 +1,10 @@
+## [1.3.43](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.42...v1.3.43) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([c5cd614](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c5cd614b0bffaf5f6029dd9b60faba194b4ef8ee))
+
 ## [1.3.42](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.41...v1.3.42) (2022-12-31)
 
 
