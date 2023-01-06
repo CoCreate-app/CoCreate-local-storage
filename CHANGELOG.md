@@ -1,3 +1,11 @@
+## [1.3.45](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.44...v1.3.45) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([1e32849](https://github.com/CoCreate-app/CoCreate-local-storage/commit/1e32849dce16476ec1cf9f87938f048e06d2d3b3))
+* edit in github btn styles ([7ec5baf](https://github.com/CoCreate-app/CoCreate-local-storage/commit/7ec5baf6ddbb2346122504277fad3737d0b90691))
+
 ## [1.3.44](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.3.43...v1.3.44) (2023-01-05)
 
 
