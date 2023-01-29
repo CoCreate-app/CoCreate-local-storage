@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.4.1...v1.4.2) (2023-01-29)
+
+
+### Bug Fixes
+
+* execute function checkSupport ([4ca16b6](https://github.com/CoCreate-app/CoCreate-local-storage/commit/4ca16b6adf0118aba8572abf4c78d93be62fdcdf))
+
 ## [1.4.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.4.0...v1.4.1) (2023-01-29)
 
 
