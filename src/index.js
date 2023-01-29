@@ -134,4 +134,6 @@ action.init({
 	},
 })
 
+CoCreateLocalStorage.checkSupport()
+
 export default CoCreateLocalStorage;
