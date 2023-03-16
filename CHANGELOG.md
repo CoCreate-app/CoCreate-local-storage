@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.4.6...v1.5.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([470f889](https://github.com/CoCreate-app/CoCreate-local-storage/commit/470f889a7e28ed2582e718bc1f89249ab76f033c))
+
 ## [1.4.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.4.5...v1.4.6) (2023-02-01)
 
 
