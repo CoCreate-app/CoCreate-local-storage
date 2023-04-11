@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.3...v1.5.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([c49db43](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c49db43fb1713c497304dbdff75cfdbb7c80e0a6))
+
 ## [1.5.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.2...v1.5.3) (2023-03-30)
 
 
