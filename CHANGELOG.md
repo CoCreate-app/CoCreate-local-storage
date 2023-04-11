@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.5...v1.5.6) (2023-04-11)
+
+
+### Bug Fixes
+
+* bump dependencies ([d445729](https://github.com/CoCreate-app/CoCreate-local-storage/commit/d445729a8991c4ef25c360ae41a7288266ae3f93))
+
 ## [1.5.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.4...v1.5.5) (2023-04-11)
 
 
