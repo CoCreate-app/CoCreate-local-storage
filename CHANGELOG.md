@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.0...v1.6.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([eb06610](https://github.com/CoCreate-app/CoCreate-local-storage/commit/eb066108e1d9edb7a16852167adf0ab4f2a4b2ba))
+
 # [1.6.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.6...v1.6.0) (2023-04-24)
 
 
