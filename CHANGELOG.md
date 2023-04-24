@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.6...v1.6.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([af0e3f1](https://github.com/CoCreate-app/CoCreate-local-storage/commit/af0e3f1c1e9de5854c311b673f4646ce46d6dbc0))
+
 ## [1.5.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.5.5...v1.5.6) (2023-04-11)
 
 
