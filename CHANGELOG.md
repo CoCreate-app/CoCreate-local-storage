@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.3...v1.6.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* workflow node version updated  16 ([7fb919c](https://github.com/CoCreate-app/CoCreate-local-storage/commit/7fb919cdc8ce84f26814e269419dbd29c6b9db4d))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.2...v1.6.3) (2023-04-24)
 
 
