@@ -1,3 +1,4 @@
+import observer from '@cocreate/observer';
 import action from '@cocreate/actions'
 
 const CoCreateLocalStorage = {
@@ -101,6 +102,37 @@ const CoCreateLocalStorage = {
        
     },
 
+    _initSessionIds: function(element) {
+        let orgId = localStorage.getItem('organization_id');
+        let user_id = localStorage.getItem('user_id');
+        this._setSessionIds(orgId, ".sessionOrg_Id", true);
+        this._setSessionIds(user_id, ".sessionUser_Id");
+    },
+
+    _setSessionIds: function(id, selector) {
+        if (id) {
+            let elements = document.querySelectorAll(selector);
+            for (let i = 0; i < elements.length; i++) {
+                this._setAttributeValue(elements[i], 'document_id', id);
+                this._setAttributeValue(elements[i], 'fetch-document_id', id);
+                this._setAttributeValue(elements[i], 'filter-value', id);
+            }
+        }
+    },
+
+    _setAttributeValue: function(element, attribute, value, isRefresh) {
+        // ToDo: if (value !== undefined)???
+        if (!element.getAttribute(attribute) || isRefresh) {
+            if (attribute == 'value') {					
+                if (element.value == '' || element.value && isRefresh)
+                    element.value = value;
+                else if (isRefresh || element.hasAttribute('value') && !element.getValue())
+                    element.setValue(value)
+            } else if (element.hasAttribute(attribute) && value)
+                element.setAttribute(attribute, value);
+        }
+    },
+
     checkSupport: function() {
         if (!('localStorage' in window)) {
             console.log("This browser doesn't support localStorage.");
@@ -113,10 +145,22 @@ const CoCreateLocalStorage = {
                         this.support = false;
             } catch(e) {
                 this.support = false;
+            } finally {
+                if (this.support)
+                    this.init()
             }
         }
     }    
 }
+
+observer.init({
+	name: 'CoCreateLocalstorage',
+	observe: ['addedNodes'],
+	target: '.sessionOrg_Id, .sessionUser_Id',
+	callback: function(mutation) {
+		CoCreateLocalStorage._initSessionIds(mutation.target);
+	}
+});
 
 action.init({
 	name: "localStorage",
