@@ -1,3 +1,14 @@
+## [1.6.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.5...v1.6.6) (2023-04-30)
+
+
+### Bug Fixes
+
+* added sessionId rendering ([cedcf58](https://github.com/CoCreate-app/CoCreate-local-storage/commit/cedcf588e2b21f450e2445b15b60676d350e5786))
+* fullscreen target updated to fullscreen fullscreen-target ([51d5524](https://github.com/CoCreate-app/CoCreate-local-storage/commit/51d55240188af7cd5b1614d0fe0f7b3fead999c1))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([7c0d2dd](https://github.com/CoCreate-app/CoCreate-local-storage/commit/7c0d2dd5cebf1059cabfc692c20bc78afb6ddb2c))
+* removed toogle fullscreen icons. now using css content ([4571be4](https://github.com/CoCreate-app/CoCreate-local-storage/commit/4571be48e6d7034ddaad6101f681dfa4e7df28c1))
+* typo this.get ([72676a7](https://github.com/CoCreate-app/CoCreate-local-storage/commit/72676a73389e20f1e563657a1083431ae01da570))
+
 ## [1.6.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.4...v1.6.5) (2023-04-24)
 
 
