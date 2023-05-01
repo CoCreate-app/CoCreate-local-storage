@@ -1,3 +1,10 @@
+## [1.6.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.6...v1.6.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([0e1d370](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0e1d370ab8a6199231454aff231abd747d753e07))
+
 ## [1.6.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.5...v1.6.6) (2023-04-30)
 
 
