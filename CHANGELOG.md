@@ -1,3 +1,10 @@
+## [1.6.8](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.7...v1.6.8) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([8f85b49](https://github.com/CoCreate-app/CoCreate-local-storage/commit/8f85b495ecf7ecb3241a7d59f30e1b3173693fd2))
+
 ## [1.6.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.6...v1.6.7) (2023-05-01)
 
 
