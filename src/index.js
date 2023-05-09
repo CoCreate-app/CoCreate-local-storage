@@ -6,12 +6,13 @@ const CoCreateLocalStorage = {
     storage: new Map(),
 
 	init: function() {
+        const self = this
 		var elements = document.querySelectorAll('[localstorage-set], [localstorage-get]');
 		this.initElements(elements)
         window.addEventListener('storage', function(e) {
             elements = document.querySelectorAll(`[localstorage-get="${e.key}"]`)
             for (let element of elements) {
-                let value = this.getItem(key)
+                let value = self.getItem(e.key)
                 if (value != null){
                     element.value = value;
                 }
