@@ -1,3 +1,10 @@
+## [1.6.10](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.9...v1.6.10) (2023-05-09)
+
+
+### Bug Fixes
+
+* storage eventlistener typo ([6b638e6](https://github.com/CoCreate-app/CoCreate-local-storage/commit/6b638e6953a740d0a340625af73c800aff11dac6))
+
 ## [1.6.9](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.8...v1.6.9) (2023-05-06)
 
 
