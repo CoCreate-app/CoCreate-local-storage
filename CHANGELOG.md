@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.0...v1.7.1) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([f89bcbe](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f89bcbef45c32ac126bf7de05798f0e97fd1a968))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.10...v1.7.0) (2023-05-10)
 
 

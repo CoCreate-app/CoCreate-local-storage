@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/local-storage",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "A Simple component similar to CoCreate-input & CoCreate-fetch which Save and fetch data for inputs, textarea, selects from localstorage. Easily configured using HTML5 attributes and/or JavaScript API",
   "keywords": [
     "local-storage",
