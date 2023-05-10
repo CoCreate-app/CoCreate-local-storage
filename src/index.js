@@ -14,7 +14,7 @@ const CoCreateLocalStorage = {
             for (let element of elements) {
                 let value = self.getItem(e.key)
                 if (value != null){
-                    element.value = value;
+                    element.setValue(value)
                 }
             }
 		});
@@ -32,14 +32,15 @@ const CoCreateLocalStorage = {
 			if (isRealtime == "false") return;
 
             let key = e.target.getAttribute('localstorage-set');
-            this.setItem(key, e.target.value);
+            if (key)
+                this.setItem(key, e.target.value);
 
             let elements = document.querySelectorAll(`[localstorage-get="${key}"]`)
             for (let el of elements) {
                 if (el != element) {
                     let value = this.getItem(key)
                     if (value != null){
-                        el.value = value;
+                        el.setValue(value)
                     }
                 }
         
@@ -75,8 +76,9 @@ const CoCreateLocalStorage = {
         let set_els = form.querySelectorAll('[localstorage-set]')
         for (let el of set_els) {
             let key = el.getAttribute('localstorage-set');
-            if (el.value && key){
-                this.setItem(key, el.value);
+            let value = el.getValue()
+            if (value && key){
+                this.setItem(key, value);
             }
         }
         let get_els = form.querySelectorAll('[localstorage-get]')
@@ -85,12 +87,12 @@ const CoCreateLocalStorage = {
             if (!key) return;
             let value = this.getItem(key)
             if (value != null){
-                el.value = value;
+                el.setValue(value)
             }
         }
         let remove_els = form.querySelectorAll('[localstorage-remove]')
         for (let el of remove_els) {
-            el.value = '';
+            el.setValue('')
             let key = el.getAttribute('localstorage-remove');
             if (key) {
                 this.removeItem(key)
