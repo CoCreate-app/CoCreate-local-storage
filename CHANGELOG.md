@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.10...v1.7.0) (2023-05-10)
+
+
+### Features
+
+* applied getValue and setValue ([d196bc2](https://github.com/CoCreate-app/CoCreate-local-storage/commit/d196bc2880e62c8822745e66a3dde6dce7f86a49))
+
 ## [1.6.10](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.6.9...v1.6.10) (2023-05-09)
 
 
