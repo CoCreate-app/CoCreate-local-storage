@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.1...v1.7.2) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([c689cc4](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c689cc4a6b70756932abfbfb0f3e99e5443d8fbb))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.0...v1.7.1) (2023-05-10)
 
 
