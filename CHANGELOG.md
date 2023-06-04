@@ -1,3 +1,10 @@
+## [1.7.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.6...v1.7.7) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([b94409f](https://github.com/CoCreate-app/CoCreate-local-storage/commit/b94409f6491d2eb4cd9224f348aec01625f555c3))
+
 ## [1.7.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.5...v1.7.6) (2023-06-04)
 
 
