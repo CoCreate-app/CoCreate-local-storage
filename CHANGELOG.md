@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.4...v1.7.5) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([03b41f0](https://github.com/CoCreate-app/CoCreate-local-storage/commit/03b41f0dc779a86a92a774f8b35edefeaae41338))
+
 ## [1.7.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.3...v1.7.4) (2023-06-02)
 
 
