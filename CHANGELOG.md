@@ -1,3 +1,11 @@
+## [1.7.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.5...v1.7.6) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([e305f14](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e305f14148f1a1728af5b92a2da95e22c3de6611))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([a0999f8](https://github.com/CoCreate-app/CoCreate-local-storage/commit/a0999f8799c234cc1171331a4080b9f380259857))
+
 ## [1.7.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.4...v1.7.5) (2023-06-04)
 
 
