@@ -1,3 +1,10 @@
+## [1.7.9](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.8...v1.7.9) (2023-06-10)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([9795917](https://github.com/CoCreate-app/CoCreate-local-storage/commit/97959175c221b6140775d8da0fd81e1cc725ec72))
+
 ## [1.7.8](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.7...v1.7.8) (2023-06-10)
 
 
