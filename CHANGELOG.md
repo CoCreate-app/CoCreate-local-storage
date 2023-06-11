@@ -1,3 +1,10 @@
+## [1.7.12](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.11...v1.7.12) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([f7e1db2](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f7e1db22a05fcd2c23c600eb93dfd4d948abecd1))
+
 ## [1.7.11](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.10...v1.7.11) (2023-06-11)
 
 
