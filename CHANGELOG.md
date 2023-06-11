@@ -1,3 +1,10 @@
+## [1.7.13](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.12...v1.7.13) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([476d66a](https://github.com/CoCreate-app/CoCreate-local-storage/commit/476d66a1fb736aa8f4745e0202ac9e97c395a037))
+
 ## [1.7.12](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.11...v1.7.12) (2023-06-11)
 
 
