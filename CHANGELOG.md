@@ -1,3 +1,10 @@
+## [1.7.18](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.17...v1.7.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([1410783](https://github.com/CoCreate-app/CoCreate-local-storage/commit/1410783c13323fec0b8a139426d62ca82abf4d42))
+
 ## [1.7.17](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.16...v1.7.17) (2023-06-11)
 
 
