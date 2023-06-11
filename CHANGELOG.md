@@ -1,3 +1,10 @@
+## [1.7.10](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.9...v1.7.10) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([c299bd5](https://github.com/CoCreate-app/CoCreate-local-storage/commit/c299bd5f0c7cc86e5c211dddea9bfae9c78bb2f0))
+
 ## [1.7.9](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.8...v1.7.9) (2023-06-10)
 
 
