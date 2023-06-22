@@ -175,16 +175,16 @@ const CoCreateLocalStorage = {
 action.init({
     name: "localStorage",
     endEvent: "localStorage",
-    callback: (btn, data) => {
-        CoCreateLocalStorage.runStorage(btn)
+    callback: (data) => {
+        CoCreateLocalStorage.runStorage(data.element)
     },
 })
 
 action.init({
     name: "localStorageRemove",
     endEvent: "localStorageRemoved",
-    callback: (btn, data) => {
-        CoCreateLocalStorage.runStorage(btn)
+    callback: (data) => {
+        CoCreateLocalStorage.runStorage(data.element)
     },
 })
 
