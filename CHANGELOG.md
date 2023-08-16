@@ -1,3 +1,18 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.21...v1.8.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([64b8fc3](https://github.com/CoCreate-app/CoCreate-local-storage/commit/64b8fc3332b383996aefe024b71cdb7d330f70bf))
+* replace -target -selector ([daffdb9](https://github.com/CoCreate-app/CoCreate-local-storage/commit/daffdb91472ac6db81ca389720d847c79fcaac60))
+* updated actions callback data object ([0652db0](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0652db058a6cb2150ba24aea720943c33769f00c))
+* webpack.config and package.json make use of mode=production instead of process.env ([9fd150b](https://github.com/CoCreate-app/CoCreate-local-storage/commit/9fd150b37e111bb188343e32364ce0d69f8da7b8))
+
+
+### Features
+
+* name attribute and variable renamed to key ([57985fd](https://github.com/CoCreate-app/CoCreate-local-storage/commit/57985fda237449b308d0c4aea5e6433fff786c4d))
+
 ## [1.7.21](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.7.20...v1.7.21) (2023-06-14)
 
 
