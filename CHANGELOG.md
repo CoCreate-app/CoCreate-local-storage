@@ -1,3 +1,12 @@
+## [1.9.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.9.0...v1.9.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([20481f8](https://github.com/CoCreate-app/CoCreate-local-storage/commit/20481f88ad7572cf53fe8bb3cf6886866475eb8c))
+* replace cdn with /dist ([fd00815](https://github.com/CoCreate-app/CoCreate-local-storage/commit/fd00815337412802601ad2708eb0ff62ed8945fb))
+* update file uploader ([85b0bcf](https://github.com/CoCreate-app/CoCreate-local-storage/commit/85b0bcfc4916ca684711912ea9109142fa65b53d))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.8.0...v1.9.0) (2023-08-17)
 
 
