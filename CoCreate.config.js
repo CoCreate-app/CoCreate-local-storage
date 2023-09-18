@@ -8,17 +8,16 @@ module.exports = {
             "object": {
                 "_id": "6020679b3c260207bf49cab0",
                 "name": "index.html",
-                "path": "/docs/local-storage/index.html",
+                "path": "/docs/local-storage",
+                "pathname": "/docs/local-storage/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
                     "*",
                     "general.cocreate.app"
                 ],
-                "directory": "/docs/local-storage",
-                "parentDirectory": "{{parentDirectory}}",
+                "directory": "local-storage",
                 "content-type": "{{content-type}}",
-                "public": "true",
-                "website_id": "644d4bff8036fb9d1d1fd69c"
+                "public": "true"
             }
         }
     ]
