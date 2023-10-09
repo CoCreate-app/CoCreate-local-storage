@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.2...v1.10.3) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump dependencies ([4916897](https://github.com/CoCreate-app/CoCreate-local-storage/commit/49168972b31f998b16b3857e2ee2cc4153ded5be))
+
 ## [1.10.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.1...v1.10.2) (2023-09-18)
 
 
