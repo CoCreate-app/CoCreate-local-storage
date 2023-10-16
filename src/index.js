@@ -107,7 +107,7 @@ const CoCreateLocalStorage = {
     * 
     * @return { undefined } No return
     */
-    runStorage: function (btn) {
+    runStorage: async function (btn) {
         const form = btn.form;
         // If the form is not a form return false.
         if (!form) return;
@@ -115,7 +115,7 @@ const CoCreateLocalStorage = {
         let set_els = form.querySelectorAll('[localstorage-set]')
         for (let el of set_els) {
             let key = el.getAttribute('localstorage-set');
-            let value = el.getValue()
+            let value = await el.getValue()
             // Sets the value of an item.
             if (value && key) {
                 this.setItem(key, value);
