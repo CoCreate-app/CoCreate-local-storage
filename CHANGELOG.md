@@ -1,3 +1,10 @@
+## [1.10.7](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.6...v1.10.7) (2023-10-17)
+
+
+### Bug Fixes
+
+* await getValue() ([a16a9d7](https://github.com/CoCreate-app/CoCreate-local-storage/commit/a16a9d75f4c64ac300168bf8b2e3fcc78e5e0dab))
+
 ## [1.10.6](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.5...v1.10.6) (2023-10-14)
 
 
