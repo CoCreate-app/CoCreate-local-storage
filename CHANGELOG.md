@@ -1,3 +1,11 @@
+## [1.10.9](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.8...v1.10.9) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([3758b8a](https://github.com/CoCreate-app/CoCreate-local-storage/commit/3758b8a79f48f21bc7fa44c82d4636fd28c3c898))
+* update dependencies to the lates versions ([6ce9a3c](https://github.com/CoCreate-app/CoCreate-local-storage/commit/6ce9a3c6fc19cfa7028087a096ad027f23ae5bd5))
+
 ## [1.10.8](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.7...v1.10.8) (2023-10-25)
 
 
