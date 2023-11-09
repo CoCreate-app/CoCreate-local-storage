@@ -1,3 +1,11 @@
+## [1.10.10](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.9...v1.10.10) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([0737d2a](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0737d2a63bd14e28dd84a854569ce3d0e6b3ab30))
+* update host ([ce2e9e4](https://github.com/CoCreate-app/CoCreate-local-storage/commit/ce2e9e4565b2b42a0cc7fa2958509e3683fc5889))
+
 ## [1.10.9](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.8...v1.10.9) (2023-11-03)
 
 
