@@ -18,6 +18,8 @@ const CoCreateLocalStorage = {
         window.addEventListener('storage', function (e) {
             elements = document.querySelectorAll(`[localstorage-get="${e.key}"]`)
             for (let element of elements) {
+                if (element.hasAttribute('localstorage-attribute') || element.hasAttribute('localstorage-value') || element.hasAttribute('localstorage-key'))
+                    return
                 let value = self.getItem(e.key)
                 // Set the value of the element.
                 if (value != null) {
