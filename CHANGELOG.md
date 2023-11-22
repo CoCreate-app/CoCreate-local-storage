@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.11.0...v1.11.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* return if element was handled by events ([f8c654e](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f8c654edd0a271406332217ccafcb80df74318db))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.10.11...v1.11.0) (2023-11-19)
 
 
