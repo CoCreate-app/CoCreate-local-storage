@@ -5,23 +5,19 @@ const CoCreateLocalStorage = {
     support: true,
     storage: new Map(),
 
-    /**
-    * Listen for storage events and update elements if needed. This is called on window. storage and when it's time to get / set data
-    */
     init: function () {
         const self = this
         var elements = document.querySelectorAll('[localstorage-set], [localstorage-get]');
         this.initElements(elements)
-        /**
-        * @param e
-        */
+
         window.addEventListener('storage', function (e) {
             elements = document.querySelectorAll(`[localstorage-get="${e.key}"]`)
             for (let element of elements) {
+                // TODO: return if localstorage-selector, etc... 
+                // - Decide how best to handle, considering localstorage is also handled by event.
                 if (element.hasAttribute('localstorage-attribute') || element.hasAttribute('localstorage-value') || element.hasAttribute('localstorage-key'))
                     return
                 let value = self.getItem(e.key)
-                // Set the value of the element.
                 if (value != null) {
                     element.setValue(value)
                 }
@@ -30,18 +26,18 @@ const CoCreateLocalStorage = {
     },
 
     /**
-    * @param elements
-    */
+     * Initializes a collection of elements.
+     * @param {Array<Element>} elements - An array of elements to be initialized.
+     */
     initElements: function (elements) {
         for (let element of elements)
             this.initElement(element)
     },
 
     /**
-    * @param element
-    * 
-    * @return { Object } The binding
-    */
+     * Initializes a single element.
+     * @param {Element} element - The element to initialize. This function expects an 'Element' type.
+     */
     initElement: function (element) {
         this.getItem(element)
         element.addEventListener('input', (e) => {
