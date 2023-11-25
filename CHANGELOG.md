@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.11.1...v1.12.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([2bc7891](https://github.com/CoCreate-app/CoCreate-local-storage/commit/2bc78915b8bfb1d06ae109419acdbcd392c0f9c4))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([85889c5](https://github.com/CoCreate-app/CoCreate-local-storage/commit/85889c578d45a5394cd606eabd8cc2ce59dd351a))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.11.0...v1.11.1) (2023-11-22)
 
 
