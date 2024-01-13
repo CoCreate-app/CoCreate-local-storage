@@ -186,6 +186,17 @@ action.init({
     },
 })
 
+observer.init({
+    observe: ['addedNodes'],
+    target: "[localstorage-set]",
+    callback: async function (mutation) {
+        let key = mutation.target.getAttribute('localstorage-set')
+        let value = await mutation.target.getValue()
+        if (key && value)
+            localStorage.setItem(key, value)
+    }
+});
+
 CoCreateLocalStorage.checkSupport()
 
 export default CoCreateLocalStorage;
