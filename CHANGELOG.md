@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.13.0...v1.14.0) (2024-01-17)
+
+
+### Features
+
+* observe added nodes [localstorage-set] ([7aff443](https://github.com/CoCreate-app/CoCreate-local-storage/commit/7aff4437cd4188fffb8d570df1eb31a4218045b2))
+
 # [1.13.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.12.0...v1.13.0) (2023-11-25)
 
 
