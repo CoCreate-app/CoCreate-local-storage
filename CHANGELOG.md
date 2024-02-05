@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.0...v1.14.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([9949fa2](https://github.com/CoCreate-app/CoCreate-local-storage/commit/9949fa2fc8d69c0833f052048d2c2dd6d0b62c49))
+
 # [1.14.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.13.0...v1.14.0) (2024-01-17)
 
 
