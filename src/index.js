@@ -43,7 +43,7 @@ const CoCreateLocalStorage = {
         element.addEventListener('input', (e) => {
             let isRealtime = element.getAttribute('realtime')
             // Returns if realtime false.
-            if (isRealtime == "false") return;
+            if (!isRealtime && isRealtime === "false") return;
 
             let key = e.target.getAttribute('localstorage-set');
             // Set the key and value in the localstorage.
