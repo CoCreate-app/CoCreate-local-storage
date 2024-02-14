@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.1...v1.14.2) (2024-02-14)
+
+
+### Bug Fixes
+
+* realtime defaults to false ([364a55d](https://github.com/CoCreate-app/CoCreate-local-storage/commit/364a55da658b79dab414d87eb4104578d7706a2f))
+
 ## [1.14.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.0...v1.14.1) (2024-02-05)
 
 
