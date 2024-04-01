@@ -82,11 +82,19 @@ const CoCreateLocalStorage = {
     * @param value - value to store
     */
     setItem: function (key, value) {
-        // Set the value of the item.
-        if (this.support)
-            window.localStorage.setItem(key, value);
-        else
-            this.storage.set(key, value)
+        try {
+            if (this.support)
+                window.localStorage.setItem(key, value);
+            else
+                this.storage.set(key, value);
+        } catch (error) {
+            if (error instanceof DOMException && (error.code === 22 || error.code === 1014 || error.name === 'QuotaExceededError' || error.name === 'NS_ERROR_DOM_QUOTA_REACHED')) {
+                // TODO: create a fallback method, perhaps setting in indexeddb if above a specific size
+                console.log('Local storage limit exceeded. Falling back to IndexedDB.');
+            } else {
+                console.error('Error setting item:', error);
+            }
+        }
     },
 
     /**
