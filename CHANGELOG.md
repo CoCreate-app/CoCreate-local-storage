@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.2...v1.14.3) (2024-04-26)
+
+
+### Bug Fixes
+
+* error handling of QuotaExceededError ([58ee966](https://github.com/CoCreate-app/CoCreate-local-storage/commit/58ee966f8b933a4950c0d88a54a8f737eaf3ffac))
+
 ## [1.14.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.1...v1.14.2) (2024-02-14)
 
 
