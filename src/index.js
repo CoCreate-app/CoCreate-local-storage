@@ -39,7 +39,20 @@ const CoCreateLocalStorage = {
      * @param {Element} element - The element to initialize. This function expects an 'Element' type.
      */
     initElement: function (element) {
-        this.getItem(element)
+        let value = this.getItem(element)
+        if (value)
+            element.setValue(value)
+        else {
+            let inputEvent = new CustomEvent('input', {
+                bubbles: true
+            });
+
+            Object.defineProperty(inputEvent, 'target', {
+                writable: false,
+                value: element
+            });
+            element.dispatchEvent(inputEvent);
+        }
         element.addEventListener('input', (e) => {
             let isRealtime = element.getAttribute('realtime')
             // Returns if realtime false.
