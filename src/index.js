@@ -1,5 +1,5 @@
 import observer from '@cocreate/observer';
-import action from '@cocreate/actions'
+import actions from '@cocreate/actions'
 
 const CoCreateLocalStorage = {
     support: true,
@@ -122,12 +122,12 @@ const CoCreateLocalStorage = {
     },
 
     /**
-    * @param btn
+    * @param action
     * 
     * @return { undefined } No return
     */
-    runStorage: async function (btn) {
-        const form = btn.form;
+    runStorage: async function (action) {
+        const form = action.form;
         // If the form is not a form return false.
         if (!form) return;
 
@@ -191,21 +191,22 @@ const CoCreateLocalStorage = {
     }
 }
 
-action.init({
-    name: "localStorage",
-    endEvent: "localStorage",
-    callback: (data) => {
-        CoCreateLocalStorage.runStorage(data.element)
+actions.init(
+    {
+        name: "localStorage",
+        endEvent: "localStorage",
+        callback: (data) => {
+            CoCreateLocalStorage.runStorage(data)
+        },
     },
-})
-
-action.init({
-    name: "localStorageRemove",
-    endEvent: "localStorageRemoved",
-    callback: (data) => {
-        CoCreateLocalStorage.runStorage(data.element)
-    },
-})
+    {
+        name: "localStorageRemove",
+        endEvent: "localStorageRemoved",
+        callback: (data) => {
+            CoCreateLocalStorage.runStorage(data)
+        }
+    }
+)
 
 observer.init({
     observe: ['addedNodes'],
