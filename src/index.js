@@ -96,9 +96,19 @@ const CoCreateLocalStorage = {
     */
     setItem: function (key, value) {
         try {
-            if (this.support)
+            if (this.support) {
+                const oldValue = localStorage.getItem(key);
+
                 window.localStorage.setItem(key, value);
-            else
+
+                const keys = ['organization_id', 'user_id', 'clientId', 'session_id'];
+                if (keys.includes(key)) {
+                    const updateEvent = new CustomEvent('updateAttributes', {
+                        detail: { key, newValue: value, oldValue }
+                    });
+                    window.dispatchEvent(updateEvent);
+                }
+            } else
                 this.storage.set(key, value);
         } catch (error) {
             if (error instanceof DOMException && (error.code === 22 || error.code === 1014 || error.name === 'QuotaExceededError' || error.name === 'NS_ERROR_DOM_QUOTA_REACHED')) {
