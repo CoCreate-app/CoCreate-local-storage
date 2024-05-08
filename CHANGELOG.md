@@ -1,3 +1,16 @@
+# [1.15.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.4...v1.15.0) (2024-05-08)
+
+
+### Bug Fixes
+
+* action property typo ([f17a85f](https://github.com/CoCreate-app/CoCreate-local-storage/commit/f17a85f7c4221044af7c0f7c92004beae7269f10))
+* dispatch  event if value null ([9975383](https://github.com/CoCreate-app/CoCreate-local-storage/commit/99753839b55a54497e91e5d29ad17585b1cb83e3))
+
+
+### Features
+
+* dispatch updateAttributes event for operators ([ee86894](https://github.com/CoCreate-app/CoCreate-local-storage/commit/ee86894c119e5d375abe681ab03df5a9999860b9))
+
 ## [1.14.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.3...v1.14.4) (2024-04-29)
 
 
