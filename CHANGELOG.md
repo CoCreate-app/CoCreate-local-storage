@@ -1,3 +1,11 @@
+## [1.15.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.15.0...v1.15.1) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([e656b78](https://github.com/CoCreate-app/CoCreate-local-storage/commit/e656b78a8fd21f1828332fb9d12aae947447fbde))
+* svg icon class ([0efceb9](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0efceb9b90551d1de1f8acc840eb4e3ad5a1975a))
+
 # [1.15.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.14.4...v1.15.0) (2024-05-08)
 
 
