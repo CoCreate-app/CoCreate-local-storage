@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.15.1...v1.16.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* observer taget has been renamed to selector ([3137770](https://github.com/CoCreate-app/CoCreate-local-storage/commit/3137770eca8bbd8d5c823785379c3064f940fa58))
+* pretier.config.js and file formating ([ce99cca](https://github.com/CoCreate-app/CoCreate-local-storage/commit/ce99ccae6a9a47b508b11383fb6f4d171493edc7))
+
+
+### Features
+
+* add prettier.config.js and format files ([fa22606](https://github.com/CoCreate-app/CoCreate-local-storage/commit/fa22606e069635d78a96564c8f40920738085d79))
+* add prettier.config.js and format files ([45ecc79](https://github.com/CoCreate-app/CoCreate-local-storage/commit/45ecc7928de87acf1c1133418d609c1ca6b1e272))
+
 ## [1.15.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.15.0...v1.15.1) (2024-06-12)
 
 
