@@ -233,7 +233,7 @@ Actions.init(
 );
 
 Observer.init({
-	observe: ["addedNodes"],
+	types: ["addedNodes"],
 	selector: "[localstorage-set]",
 	callback: async function (mutation) {
 		let key = mutation.target.getAttribute("localstorage-set");
