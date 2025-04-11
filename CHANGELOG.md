@@ -1,3 +1,11 @@
+## [1.16.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.0...v1.16.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* dispatch end event on action element rather than document ([65da81f](https://github.com/CoCreate-app/CoCreate-local-storage/commit/65da81fa402e24b8233e3a7619022aedbe78e376))
+* update observer observe param to type and and attributeName to attributeFilter ([954a73e](https://github.com/CoCreate-app/CoCreate-local-storage/commit/954a73ea1cf4b3535cf077f8c7262de37a44dbf9))
+
 # [1.16.0](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.15.1...v1.16.0) (2024-11-04)
 
 
