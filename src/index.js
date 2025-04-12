@@ -17,7 +17,7 @@ const CoCreateLocalStorage = {
 				`[localstorage-get="${e.key}"]`
 			);
 			for (let element of elements) {
-				// TODO: return if localstorage-selector, etc...
+				// TODO: return if localstorage-query, etc...
 				// - Decide how best to handle, considering localstorage is also handled by event.
 				if (
 					element.hasAttribute("localstorage-attribute") ||
