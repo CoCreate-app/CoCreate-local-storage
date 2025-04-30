@@ -1,3 +1,13 @@
+## [1.16.2](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.1...v1.16.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([0fb8f99](https://github.com/CoCreate-app/CoCreate-local-storage/commit/0fb8f99e6b4c21e28ddf0ff2e266c4577c009978))
+* update query attributes ([b732761](https://github.com/CoCreate-app/CoCreate-local-storage/commit/b732761ebec15371981907278c9eb90eb08cb92e))
+* updated cocreate modules versions ([2e25029](https://github.com/CoCreate-app/CoCreate-local-storage/commit/2e2502903ccbf7efc816d3387a453829a133e96e))
+* webpack.config and devdependencies ([3297510](https://github.com/CoCreate-app/CoCreate-local-storage/commit/3297510fe52eccb7850c7a94f7c4428315d62eb1))
+
 ## [1.16.1](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.0...v1.16.1) (2025-04-11)
 
 
