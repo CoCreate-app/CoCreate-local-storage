@@ -1,3 +1,10 @@
+## [1.16.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.3...v1.16.4) (2026-02-04)
+
+
+### Bug Fixes
+
+* update worklow ([84ed393](https://github.com/CoCreate-app/CoCreate-local-storage/commit/84ed39318d7838be935dc1e0d6542505536be44d))
+
 ## [1.16.3](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.2...v1.16.3) (2025-05-01)
 
 
