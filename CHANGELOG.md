@@ -1,3 +1,10 @@
+## [1.16.5](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.4...v1.16.5) (2026-03-05)
+
+
+### Bug Fixes
+
+* storage support for local and session storage, added fallback to Map for unsupported browsers ([9774762](https://github.com/CoCreate-app/CoCreate-local-storage/commit/9774762ed66298adaec453804835211930269519))
+
 ## [1.16.4](https://github.com/CoCreate-app/CoCreate-local-storage/compare/v1.16.3...v1.16.4) (2026-02-04)
 
 
